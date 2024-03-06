@@ -2,7 +2,7 @@
 import os
 import random
 import time
-from ContentData import massiveRndm, result
+from ContentData import massiveRndm, result # Импорт данных для файлов
 class file:
     def __init__(self, fileName, fileContent, fileCreateTime, filePath, fileSize): # Создание имени файла, контент и тд
         self.fileName = fileName
