@@ -11,8 +11,8 @@ class file:
         self.filePath = filePath
         self.fileSize = fileSize
 
-    @staticmethod
-    def generateFile(cls, nameFile):
+    @staticmethod # статический метод
+    def generateFile(cls, nameFile): # генерейт файл функция
         GEN_FOLDER = 'generalFolder' # Название
         if not os.path.exists(GEN_FOLDER):
             os.mkdir(GEN_FOLDER)  # Создание главной папки
